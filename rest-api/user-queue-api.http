@@ -1,0 +1,8 @@
+### user queue
+POST localhost:8081/queue?queueKey=init&userId=16
+
+### user approval
+POST localhost:8081/approval?queueKey=init&count=1
+
+### user isApproval
+GET localhost:8081/approved?queueKey=init&userId=8
